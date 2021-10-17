@@ -18,4 +18,10 @@ eval $(ssh-agent -s) # savoir si l'agent ssh run
 ssh-add ~/.ssh/id_rsa # ajouter notre clée ssh local
 ssh -T git@github.com
 #commande line repositories
+#commande line repositories
+git clone #ajouter le lien du folder
+git add. #ajouter les modificatons
+git status #voir si tout a été pris en compte
+git commit -m "commentaire" #preparer la release
+git push origin main #push sur la main branch (origin mise en place en clonnant)
 
