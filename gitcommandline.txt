@@ -1,0 +1,21 @@
+commande git
+git config --global user.name "samuel taylor" #a changer pour tracabilité
+git config --global user.email "samueldom.taylor@gmail.comé #changer l'email
+git config --edit --global #get all config
+code #ouvre code si code est dans le path
+git config --global core.editor "code --wait --new-window" # param Code
+git init #create new reporitory
+git clone #download a project
+git add #prepare a file
+git commit #commit a file -m pour message et -am for allmessage
+git status # avoir le status
+git add. #ajouter tout les files 
+git log #get l'histo
+#install ssh key 
+ls -al ~/.ssh #SSH connectionsavoir si j'ai un ssh 
+ssh-keygen -t rsa -b 4096 -C "samueldom.taylor@gmail.com" #create an ssh 
+eval $(ssh-agent -s) # savoir si l'agent ssh run
+ssh-add ~/.ssh/id_rsa # ajouter notre clée ssh local
+ssh -T git@github.com
+#commande line repositories
+
