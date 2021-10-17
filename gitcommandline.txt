@@ -24,4 +24,4 @@ git add. #ajouter les modificatons
 git status #voir si tout a été pris en compte
 git commit -m "commentaire" #preparer la release
 git push origin main #push sur la main branch (origin mise en place en clonnant)
-
+#ajout des commandes pull et fetch
