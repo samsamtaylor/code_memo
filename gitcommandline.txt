@@ -28,3 +28,4 @@ git push origin main #push sur la main branch (origin mise en place en clonnant)
 git fetch #connection pour get la derniere v dans github
 git status #te donne le status du merge
 git pull #recupere et merge
+#Readme file is written in markdown language, extesion => .md
