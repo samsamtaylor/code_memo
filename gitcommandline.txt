@@ -29,3 +29,4 @@ git fetch #connection pour get la derniere v dans github
 git status #te donne le status du merge
 git pull #recupere et merge
 #Readme file is written in markdown language, extesion => .md
+#working with branch
