@@ -7,7 +7,7 @@ git config --global core.editor "code --wait --new-window" # param Code
 git init #create new reporitory
 git clone #download a project
 git add #prepare a file
-git commit #commit a file -m pour message et -am for allmessage
+git commit #commit a file -m pour message et -am for add and commit message
 git status # avoir le status
 git add. #ajouter tout les files 
 git log #get l'histo
