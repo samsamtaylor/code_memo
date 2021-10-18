@@ -7,7 +7,7 @@ git config --global core.editor "code --wait --new-window" # param Code
 git init #create new reporitory
 git clone #download a project
 git add #prepare a file
-git commit #commit a file -m pour message et -am for allmessage
+git commit #commit a file -m pour message et -am for add and commit message
 git status # avoir le status
 git add. #ajouter tout les files 
 git log #get l'histo
@@ -29,3 +29,7 @@ git fetch #connection pour get la derniere v dans github
 git status #te donne le status du merge
 git pull #recupere et merge
 #Readme file is written in markdown language, extesion => .md
+
+git branch "branch name" #create a branche
+git checkout -b "branch name" #connect to a branch pas besoin de la commande branch, la brnche est créé sil elle n'existe pas
+git push -u "origin" "branch name" # ne pas oublier le u
