@@ -29,3 +29,7 @@ git fetch #connection pour get la derniere v dans github
 git status #te donne le status du merge
 git pull #recupere et merge
 #Readme file is written in markdown language, extesion => .md
+
+git branch "branch name" #create a branche
+git checkout -b "branch name" #connect to a branch pas besoin de la commande branch, la brnche est créé sil elle n'existe pas
+git push -u "origin" "branch name" # ne pas oublier le u
